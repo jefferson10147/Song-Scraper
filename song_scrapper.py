@@ -4,6 +4,7 @@ from optparse import OptionParser
 
 HOST = "https://www.musica.com/letras.asp?t2="
 
+
 def conection (url):
     response = requests.get(url)
     if response.status_code == 200:
@@ -15,6 +16,7 @@ def conection (url):
     else:
         print("There's not server response")
         exit(0)
+
 
 if __name__ == '__main__':
     parser = OptionParser()

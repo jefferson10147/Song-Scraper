@@ -1,9 +1,9 @@
 # Song-Scrapper
 This python algorithm search online lyrics of all songs you want
 
-## How to use this program (on linux):
+## How to run this program (on linux):
 
-* Run on your console this conmand
+* You have to run this conmand on your terminal:
 ```bash
  $python3 song_crapper.py -n 'your song name' 
 ```
